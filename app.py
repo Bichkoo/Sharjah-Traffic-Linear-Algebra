@@ -14,7 +14,7 @@ st.markdown("**Math 101 Project | Linear Algebra & Least Squares Approximation**
 def train_model():
     # 1. Load data
     df = pd.read_csv('sharjah_congestion.csv')
-    days = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun']
+    days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     y = df[days].values.flatten('F')  # Unroll to 168x1 vector
 
     # 2. Build Design Matrix X
