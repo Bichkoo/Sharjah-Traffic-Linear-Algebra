@@ -66,7 +66,7 @@ else:
     st.success("✅ Clear Roads. Optimal time to leave!")
 
 # --- PROFESSOR ZIKKOS FLEX ZONE (The Math) ---
-with st.expander("🧮 See the Mathematical Reasoning (For Prof. Zikkos)"):
+with st.expander("🧮 See the Mathematical Reasoning "):
     st.markdown(
         "Because the real-world traffic vector $y$ is not in the Column Space of our matrix $X$, the system $X\\beta = y$ is inconsistent. We find the **Orthogonal Projection** using the Normal Equation:")
     st.latex(r"\beta = (X^T X)^{-1} X^T y")
